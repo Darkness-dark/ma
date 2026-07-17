@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+body {
+  background-color: #430477;
+  background-image: 
+    radial-gradient(#000000 20%, transparent 20%);
+  background-size: 20px 20px;
+}
+
+.main {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display:block;
+  background-image: 
+    linear-gradient(#000000, #ffffff00 30%),
+    linear-gradient(to top, black, transparent 30%);
+} 
+
+.title h1{
+    margin-top: 60px;
+    text-align: center;
+    color: white;
+    font-size: 100px;
+  }
+
+.title h2{
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+  }
+
+h3 {
+  text-align: center;
+}
+a{
+  color: rgb(4, 159, 255);
+}
+
+nav .menu {
+    margin-top: 60px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    }
+ 
+   nav .menu li{
+    
+    display: inline-block;
+    vertical-align: top;
+    top: 0;
+    width: 25%;
+    padding: 5px 5px;
+    margin-inline: 50px;
+    list-style: none;
+    background-color: #000000;
+ 
+     }
+ 
+   nav .menu li p{
+ 
+     text-decoration: none;
+     color: #ffeaea;
+     text-transform: uppercase;
+     font-family: 'Signika Negative', sans-serif;
+     font-size: 0.9em;
+ 
+     }
+ 
+    nav .menu img {
+      width: 100%;
+    }
+
+    .contenido-desplegable {
+      position: relative;
+      display: none;
+      padding: 10px;
+      background-color: #fff4aa;
+      margin-top: 5px;
+      border-radius: 2px;
+      color: rgb(65, 9, 105);
+      font-size: 25px;
+      font-family: 'Signika Negative', sans-serif;
+      font-weight: bold;
+    }
+
+    
+    .menu li:hover .contenido-desplegable {
+      display: block;}
